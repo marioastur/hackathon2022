@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --main-color: 60;
+  --bg-color: hsl(var(--main-color), 100, 95);
+  --btn-bg-color: hsl(var(--main-color), 80, 90);
+
+}
