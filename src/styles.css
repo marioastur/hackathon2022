@@ -1,6 +1,11 @@
 :root {
   --main-color: 60;
-  --bg-color: hsl(var(--main-color), 100, 95);
+  --bg-color-light: hsl(var(--main-color), 100, 95);
+  --text-color-dark: hsl(var(--main-color), 80, 9);
+  --text-color-light: hsl(var(--main-color), 100, 95);
   --btn-bg-color: hsl(var(--main-color), 80, 90);
-
+  --btn-color: hsl(var(--main-color), 70, 9);
+  --spacing-small: calc(0.5 + 0.5vh);
+  --spacing-medium: calc(1.5vw + 1.5vh);
+  --spacing-large: calc(3.5vw + 3.5vh);
 }
