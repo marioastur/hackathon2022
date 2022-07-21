@@ -1,0 +1,15 @@
+div {
+  display: flex;
+  flex-flow: row wrap;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: var(--spacing-small);
+}
+a:hover {
+  text-decoration: underline;
+}
+h6 {
+text-align: center;
+}

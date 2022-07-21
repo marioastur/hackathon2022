@@ -1,10 +1,8 @@
-<nav>
-  <ul>
-    <li>
-      Home
-    </li>
-    <li>
-      Pets
-    </li>
-  </ul>
-</nav>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{pet.img}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{pet.name}}</h5>
+    <p class="card-text">{{pet.owner}}</p>
+    <a href="/details/{{pet.id}}" class="btn btn-primarycolor">Conóceme</a>
+  </div>
+</div>

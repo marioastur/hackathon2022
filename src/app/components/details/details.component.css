@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: var(--bg-color-light);
+    padding: var(--spacing-small);
+    gap: calc(2vh + 2vw);
+  }
+
+  .card {
+
+    width: 100%;
+    background-color: white;
+    padding: var(--spacing-small);
+    gap: calc(2vh + 2vw);
+
+  }
+
+  input {
+
+    background-color: hsl(var(--main-color), 100%, 95%);
+  }
+  button {
+    border: none;
+  }
+  button,a {
+   background-color:  hsl(var(--main-color), 40%, 80%);
+   color:black;
+  }
+
+  button:hover {
+    background-color: var(--btn-hover);
+    border-radius: 50px;
+    background-color:  hsl(0, 60%, 76%);
+  }
+
+  a:hover {
+    background-color: var(--btn-hover);
+    border-radius: 50px;
+  background-color:  hsl(0, 60%, 76%);
+
+  }
+
+  h1 {
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+    color: black;
+  }
+
+  @media only screen and (max-width: 600px) {
+    img {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  }
+

@@ -1,0 +1,31 @@
+div {
+  width: calc(15vw + 15vh);
+  max-width: 600px;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  border-radius: calc(1vw + 1vh);
+  background-color: white;
+}
+.card-img-top{
+  object-fit: cover;
+  max-height: 265px;
+}
+.btn{
+  font-family: monospace;
+  font-weight: 600;
+}
+
+a {
+  background-color:  hsl(var(--main-color), 100%, 95%);
+  color:black;
+
+}
+
+a:hover {
+  background-color: var(--btn-hover);
+  border-radius: 50px;
+background-color:  hsl(0, 60%, 76%);
+}
