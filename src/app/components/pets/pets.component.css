@@ -19,7 +19,7 @@ div {
 }
 
 a {
-  background-color:  hsl(var(--main-color), 100%, 95%);
+  background-color:  hsl(var(--main-color), 40%, 80%);
   color:black;
 
 }
