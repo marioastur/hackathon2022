@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: var(--bg-color-light);
+    padding: var(--spacing-small);
+    gap: calc(2vh + 2vw);
+  }
+
+  img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px
+  }
+  
+  
