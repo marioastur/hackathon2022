@@ -8,9 +8,9 @@ Our frontend for the hackathon 2022 fullstack app.
 
 **Link to project:** 
 
-FrontEnd: https://github.com/checkmyprojects/hackathon2022
+FrontEnd (this one): https://github.com/checkmyprojects/hackathon2022
 
-Backend (this one): https://github.com/checkmyprojects/hackathon2022-backend
+Backend: https://github.com/checkmyprojects/hackathon2022-backend
 
 ## Team
 
