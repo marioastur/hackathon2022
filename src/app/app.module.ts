@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { PetsComponent } from './components/pets/pets.component';
 import { TeamComponent } from './components/team/team.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PetsComponent,
     TeamComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
