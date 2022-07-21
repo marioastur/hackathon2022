@@ -2,17 +2,19 @@
 <div class="card mb-3" style="max-width: 840px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="{{pet.img}}" class="img-fluid rounded-start" alt="...">
+        <img src="{{pet.img}}" class="img-fluid rounded-start m-4" alt="...">
       </div>
       <div class="col-md-8">
-        <div class="card-body ms-4">
+        <div class="card-body ms-5">
           <h5 class="card-title">Mascota : {{pet.name}} - {{pet.age}} años</h5>
           <p class="card-text">{{pet.description}}</p>
           <p class="card-text">Tipo : {{pet.type}} - {{pet.size}}</p>
           <p class="card-text">Horario : {{pet.schedule}}</p>
           <p class="card-text">Localización : {{pet.location}}</p>
           <p class="card-text">{{pet.owner}}</p>
+         <button>Contactar</button>
         </div>
+       
       </div>
     </div>
   </div>
