@@ -17,18 +17,15 @@ div {
   font-family: monospace;
   font-weight: 600;
 }
-.btn-color{
-  background-color: var(--btn-bg-color);
-  color: var(--btn-color);
-}
-.btn-color{
-  -webkit-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
+
+a {
+  background-color:  hsl(var(--main-color), 100%, 95%);
+  color:black;
 
 }
-.btn-color:hover {
+
+a:hover {
   background-color: var(--btn-hover);
-  border: none;
   border-radius: 50px;
+background-color:  hsl(0, 60%, 76%);
 }

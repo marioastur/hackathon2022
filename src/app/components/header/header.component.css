@@ -3,27 +3,28 @@ body {
 }
 
 header {
-  overflow: hidden;
+
   margin-bottom: 20px;
 
 }
 
 header .logo {
-  width: vw;
+ 
   font-size: 50px;
   line-height: 60px;
   float: left;
 
 }
 
-header nav {
+/*header nav {
   float: right;
   line-height: 100px;
 
 }
+*/
 
 header nav a {
-  display: inline-block;
+  
   color: rgb(13, 12, 12);
   text-decoration: none;
   padding: 10px 20px;
@@ -50,7 +51,8 @@ h1 {
 
 
 
-div.wrapper {
+.container {
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -58,8 +60,4 @@ div.wrapper {
 
 }
 
-div.menu {
-  display: flex;
 
-
-}
