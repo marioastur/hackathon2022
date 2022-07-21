@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Google Fonts
+
+font-family: 'Irish Grover', cursive;
+
+
+## API 
+/filter/type/{type}
+/filter/location/{location}
+/filter/size/{size}
+/filter/schedule/{schedule}
+/filter/favourites
