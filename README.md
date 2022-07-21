@@ -29,3 +29,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Google Fonts
 
 font-family: 'Irish Grover', cursive;
+
+
+## API 
+/filter/type/{type}
+/filter/location/{location}
+/filter/size/{size}
+/filter/schedule/{schedule}
+/filter/favourites

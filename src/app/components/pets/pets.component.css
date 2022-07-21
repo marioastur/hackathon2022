@@ -1,0 +1,42 @@
+div {
+  width: calc(15vw + 15vh);
+  max-width: 600px;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  border-radius: calc(1vw + 1vh);
+  background-color: white;
+}
+figure{
+  width: calc(14vw + 14vh);
+  height: calc(11vw + 11vh);
+  max-width: 400px;
+  max-height: 300px;
+  min-width: 150px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-medium);
+  overflow: hidden;
+}
+figcaption{
+  text-align: center;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.content{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  padding: var(--spacing-medium);
+}
+button {
+  width: 60%;
+  background-color: hsl(var(--main-color), 100%, 97%);
+   height: calc(2vw + 2vh);
+  margin-bottom: var(--spacing-medium);
+}
