@@ -11,7 +11,8 @@ import { ApiService } from 'src/app/services/api.service';
 export class DetailsComponent implements OnInit {
   id:string | undefined;
   pet:any;
-
+  contact: boolean= false;
+  
   constructor(private route: ActivatedRoute, private petsService: ApiService) { }
 
   ngOnInit(): void {
@@ -19,6 +20,16 @@ export class DetailsComponent implements OnInit {
     this.getOnePet();
   }
 
+  public contactMe (){
+    if(this.contact== true)
+    {
+      this.contact=false
+    }
+    else { 
+      this.contact=true
+    }
+  
+  }
   public getOnePet():void{
     if (!this.id) {
       return;
