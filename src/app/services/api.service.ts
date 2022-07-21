@@ -14,4 +14,8 @@ export class ApiService {
     return this.http.get<Object[]>(`${this.apiServerUrl}/api/pets/list`);
 
   }
+
+  public getOnePetById(id: string): Observable<Object>{
+    return this.http.get<Object>(`${this.apiServerUrl}/api/pets/id/${id}`);
+  }
 }
