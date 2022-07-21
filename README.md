@@ -1,27 +1,46 @@
-# Hackathon
+# Hackathon 2022
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+## ¿Paseamos? frontend
 
-## Development server
+Our frontend for the hackathon 2022 fullstack app.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Screenshot](screenshot.jpg)
 
-## Code scaffolding
+## Team
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Hi there!
 
-## Build
+- Adrián: https://github.com/adrianmoratilla
+- Jesús: https://github.com/checkmyprojects
+- Jordi: https://github.com/JordiGDavant
+- María Angélica https://github.com/MariangelicaCarvallo
+- Mario Rubio https://github.com/marioastur
+- Marina https://github.com/Yelose
+- Sara: https://github.com/Saracode13
+- Taoufik:https://github.com/taoufikL12
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## How It's Made:
 
-## Running unit tests
+**Tech used:** HTML5, CSS3, Angular, Typescript, Bootstrap.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## How to install
 
-## Running end-to-end tests
+Clone repo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```npm install```
 
-## Further help
+```ng serve```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Open your web browser on http://localhost:4200
+
+## Optimizations
+
+- Code needs some refactoring and clean up.
+
+- More views and a search box.
+
+## Lessons Learned:
+
+A good planning helps speed things up.
+
+
