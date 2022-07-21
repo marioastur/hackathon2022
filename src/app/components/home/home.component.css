@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: blue;
+  background-color: var(--bg-color-light);
   padding: var(--spacing-small);
   gap: calc(2vh + 2vw);
 }
