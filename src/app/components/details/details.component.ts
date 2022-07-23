@@ -21,15 +21,9 @@ export class DetailsComponent implements OnInit {
   }
 
   public contactMe (){
-    if(this.contact== true)
-    {
-      this.contact=false
-    }
-    else { 
-      this.contact=true
-    }
-  
+    this.contact = !this.contact;
   }
+  
   public getOnePet():void{
     if (!this.id) {
       return;
